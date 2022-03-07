@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Creating and styling list</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    back-ground:bule;
+    
+    <h1>HTML List</h1>
+    font-size: 35px;
+    <h2>How to use and style a HTML list</h2>
+
+    <p>Pellentsesque habitant morbi tristique senectuset afditd 
+     et malesuada fame ac turpies egestas, Vestibulum totor 
+     queam, ultricies eget sit amtet, ante. Doenec eu libera 
+     sit amit queam egestas semper. aeneam ultricies mi vitae est.
+      Maurss placereat eleifent eler
+    </p>
+    <ol>
+        <li>Item number 1</li>
+        <li>Item number 2</li>
+        <li>Item number 3</li>
+        <li>Item number 4</li>
+            
+    </ol>
+
+    <ul>
+        <ul> Wash the car</ul>
+        <ul>Clean the dishes</ul>
+        <ul>Feed the dog</ul>
+            font-size: 18px;
+    </ul>
+
+</body>
+</html>
