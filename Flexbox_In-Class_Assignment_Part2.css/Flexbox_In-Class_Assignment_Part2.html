@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>"Flexbox_In-Class_Assignment_Part2</title>
+    <link rel="Flexbox_In-Class_Assignment_Part2.css" href="Flexbox_In-Class_Assignment_Part2.html">
+    </head>
+        <style>
+            body{
+                margin: 0;
+            }
+            .container {
+                display: flex;
+                flex-direction: row;
+                height: 800px;
+            }
+            .column {
+                flex-grow: 1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+            .red {
+                background-color: #ff5f5f
+            }
+            .blue {
+                background-color: #5fafff;
+            }
+            .yellow {
+                background-color: #ffff5f;
+            }
+            .number {
+                font-size: 50px;
+            }
+        </style> 
+    <body>
+        <div class="container">
+            <div class="red column"><div class="number">1</div></div>
+            <div class="blue column"><div class="number">2</div></div>
+            <div class="yellow column"><div class="number">3</div></div>
+    </div>
+</body>
+</html>
